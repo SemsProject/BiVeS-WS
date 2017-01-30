@@ -1,0 +1,29 @@
+= BiVeS Web Service =
+Teh BiVeS Web Service is a servlet that allows for communication with [bives:wiki BiVeS] through HTTP. That makes it possible to use BiVeS in non-Java project.
+
+* BivesWebServiceUsage
+* [bivesws-client:wiki Java Client]
+
+* Test our instance at http://bives.sems.uni-rostock.de
+
+== Installation ==
+
+* learn how to BuildBivesWebService or obtain latest binaries from http://bin.sems.uni-rostock.de/BiVeS-WS/
+* InstallBivesWebService
+
+* code:
+ * Java code: source:src/main/java/de/unirostock/sems/bives/webservice 
+ * Servlet stuff: https://sems.uni-rostock.de/trac/bivesws/browser/src/main/webapp
+
+{{{
+git clone git://sems.uni-rostock.de/bivesws
+}}}
+
+== Starting Points ==
+
+ * TracGuide --  Built-in Documentation
+ * [http://trac.edgewall.org/ The Trac project] -- Trac Open Source Project
+ * [http://trac.edgewall.org/wiki/TracFaq Trac FAQ] -- Frequently Asked Questions
+ * TracSupport --  Trac Support
+
+For a complete list of local wiki pages, see TitleIndex.
