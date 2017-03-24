@@ -18,5 +18,5 @@ Installation
  * Servlet stuff: https://sems.uni-rostock.de/trac/bivesws/browser/src/main/webapp
 
 ```
-git clone git://sems.uni-rostock.de/bivesws
+git clone git@github.com:SemsProject/BiVeS-WS.git
 ```

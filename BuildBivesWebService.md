@@ -3,7 +3,7 @@ Build BiVeS Web Service
 When you've cloned the source code:
 
 ```sh
-git clone git://sems.uni-rostock.de/bivesws
+git clone git@github.com:SemsProject/BiVeS-WS.git
 ```
 
 There are two supported options to build this project:
