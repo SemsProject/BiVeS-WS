@@ -17,11 +17,11 @@ Mar 17, 2014 9:00:27 PM org.apache.catalina.startup.HostConfig deployWAR
 INFO: Deploying web application archive /var/lib/tomcat7/webapps/BiVeS-WS-1.2.3.war
 ```
 
-If that is done the web service will hopefully be up and running at http://you.server:8080/BiVeS-WS-1.2.3
+If that is done the web service will hopefully be up and running at `http://your.server:8080/BiVeS-WS-1.2.3`
 
 ### Rename the Package 
 
-Since it might be annoying to have the version number of the web service in its URL you can simply rename the `war` package. E.g. copy `BiVeS-WS-1.2.3.war` to `$CATALINA_BASE/webapps/bives-rocks.war` to get it accessible at http://you.server:8080/bives-rocks
+Since it might be annoying to have the version number of the web service in its URL you can simply rename the `war` package. E.g. copy `BiVeS-WS-1.2.3.war` to `$CATALINA_BASE/webapps/bives-rocks.war` to get it accessible at `http://your.server:8080/bives-rocks`
 
 ### Get rid of 8080 
 
