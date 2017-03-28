@@ -14,8 +14,8 @@ Installation
 * [Install BiVeS WebService](InstallBivesWebService)
 
 * code:
- * Java code: /src/main/java/de/unirostock/sems/bives/webservice 
- * Servlet stuff: https://sems.uni-rostock.de/trac/bivesws/browser/src/main/webapp
+  * Java code: [/src/main/java/de/unirostock/sems/bives/webservice](https://github.com/SemsProject/BiVeS-WS/tree/master/src/test/java/de/unirostock/sems/bives/webservice)
+  * Servlet stuff: [/src/main/webapp](https://github.com/SemsProject/BiVeS-WS/tree/master/src/main/webapp)
 
 ```
 git clone git@github.com:SemsProject/BiVeS-WS.git
