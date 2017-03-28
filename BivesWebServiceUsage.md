@@ -2,8 +2,8 @@ Usage of the BiVeS Web Service
 ==============================
 
 The BiVeS Web Service expects JSON object sent as a [HTTP Post](https://en.wikipedia.org/wiki/POST_%28HTTP%29) query. This JSON object needs to have the following entries:
-* `files`: an array of files to be processed with this query (see [None](#files))
-* `commands`: an array of command to be run on the server (see [None](#commands))
+* `files`: an array of files to be processed with this query (see [Files](#files))
+* `commands`: an array of command to be run on the server (see [Commands](#commands))
 
 `files` 
 -------
