@@ -85,7 +85,7 @@ Sample Queries
 
 * the following queries were run using curl
 * in addition, the output is piped through `python -mjson.tool` to prettify the JSON result. feel free to drop that.
-* here we use the bives web service hosted at our server: http://bives.sems.uni-rostock.de/bives/
+* here we use the bives web service hosted at our server: https://bives.bio.informatik.uni-rostock.de/
 
 ### Get the HTML report and the reaction network after comparing two files 
 
@@ -102,7 +102,7 @@ curl -d '{
 		"reactionsDot",
 		"reportHtml"
 	]
-}' http://bives.sems.uni-rostock.de/bives/ | python -mjson.tool
+}' https://bives.bio.informatik.uni-rostock.de/ | python -mjson.tool
 ```
 
 
@@ -121,7 +121,7 @@ curl -d '{
 		"CellML",
 		"singleFlatten"
 	]
-}' http://bives.sems.uni-rostock.de/bives/ | python -mjson.tool
+}' https://bives.bio.informatik.uni-rostock.de/ | python -mjson.tool
 ```
 
 ### Send an invalid request 
@@ -141,7 +141,7 @@ curl -d '{
 		"compHierarchyJson",
 		"reportHtml"
 	]
-}' http://bives.sems.uni-rostock.de/bives/ | python -mjson.tool
+}' https://bives.bio.informatik.uni-rostock.de/ | python -mjson.tool
 ```
 
 ```js

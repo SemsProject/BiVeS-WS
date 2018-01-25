@@ -2,8 +2,11 @@ Install the BiVeS Web Service
 ===============================
 
 To install the BiVeS Web Service you need to have the latest binaries:
-* see  [Build BiVeS WebService](BuildBivesWebService)
+* see  [Build BiVeS WebApp](BuildBivesWebService)
 * or download from [http://bin.sems.uni-rostock.de/BiVeS-WS/](http://bin.sems.uni-rostock.de/BiVeS-WS/)
+
+* The [BiVeS Web App is also available as a Docker image!](https://hub.docker.com/r/binfalse/bives-webapp/)
+
 
 Installation on on a Tomcat Web Server 
 ---------------------------------------
